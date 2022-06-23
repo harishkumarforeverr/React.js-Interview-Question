@@ -18,4 +18,8 @@
      var a;
      let b;
      const c;
-13. 
+13. what is event loop 
+14. const obj={name : {fname :"harish"}, age : 21 } , how to print the fname without the 2 times 
+    answer : const {name : {fname}} =obj; console.log(obj);
+15. explain the work flow of the Redux 
+16. what to center a div extractly center in x and y axis
