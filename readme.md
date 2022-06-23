@@ -23,3 +23,39 @@
     answer : const {name : {fname}} =obj; console.log(obj);
 15. explain the work flow of the Redux 
 16. what to center a div extractly center in x and y axis
+17. .parent {
+    background: red;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    grid:
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+    
+    or 
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+    
+    or 
+    
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    
+    or
+    display : table-cell;
+    vertical-align : middlle
+
