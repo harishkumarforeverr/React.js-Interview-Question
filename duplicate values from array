@@ -1,0 +1,33 @@
+
+ [1, 2, 3, 4, 5, 6]  [7, 8, 4, 5, 9]  ===> o/p remove duplicate no and output :  [1, 2, 3, 6, 7, 8, 9]
+ 
+ 
+ 
+ code
+ 
+ const arr1 = [1, 2, 3, 4, 5, 6];
+
+const arr2 = [7, 8, 4, 5, 9]; 
+
+const duplicate = [];
+for (let i = 0; i < arr1.length; i++) {
+  for (let j = 0; j < arr2.length; j++) {
+    if (arr1[i] === arr2[j]) {
+      duplicate.push(arr1[i]);
+    }
+  }
+}
+const temp = [...new Set(duplicate)]; 
+
+const mynewArray = [];
+
+for (let i = 0; i < arr1.length; i++) {
+  if (!temp.includes(arr1[i])) mynewArray.push(arr1[i]);
+}
+for (let i = 0; i < arr2.length; i++) {
+  if (!temp.includes(arr2[i])) mynewArray.push(arr2[i]);
+}
+console.log(arr1, arr2);
+console.log(mynewArray);
+
+     
