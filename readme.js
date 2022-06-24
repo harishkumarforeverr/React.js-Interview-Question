@@ -5,7 +5,19 @@
      2nd npm publish then our code willl be publish and then we can use that librray in our code ( npm publish before that we need to auth with npm website as a github)
      
 3. what is libarary and framework
+
+
 4. what u will do to change the theme of complete application and 
+:root{
+   ---main-color:"red"
+}
+ document.documentElement.style.getPropertyValue("--main-color")
+-> red
+document.documentElement.style.setProperty("--main-color", "blue")
+document.documentElement.style.getPropertyValue("--main-color")
+-> blue
+
+
 5. how u define a component that u want to use for multiple Project
 6. how u will use a componenet that act as nodule_modules (just as a dependency)
 7. diffence between the redux and redux toolkit and 
