@@ -59,3 +59,23 @@
     display : table-cell;
     vertical-align : middlle
 
+18. differnce between the splice and slice 
+const a=[1,2,3,4] 
+a.slice(0,3)
+[1, 2, 3]
+print a
+[1, 2, 3, 4]
+a.splice(0,3)
+[1, 2, 3]
+print a
+[4]
+or another sceneries 
+a
+[22, 44, 55, 22, 4]
+a.splice(0,0,2,4,5)
+print a
+[2, 4, 5, 22, 44, 55, 22, 4] 
+
+
+slice will return a new array and it doesnt effect the cuurent array and 
+splice will remove or add the element to cuurent array (its changes the current array) and return type is  :: i will return the no of element effected
