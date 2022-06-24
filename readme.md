@@ -1,11 +1,18 @@
 1. what is the storage of Browser for the React.js 
+   5mb
 2. how u can convert a given component into a library and how long u will take ??
+     1st we will write npm init and then we will have package.json and and all our code which we wrote 
+     2nd npm publish then our code willl be publish and then we can use that librray in our code ( npm publish before that we need to auth with npm website as a github)
+     
 3. what is libarary and framework
 4. what u will do to change the theme of complete application and 
 5. how u define a component that u want to use for multiple Project
 6. how u will use a componenet that act as nodule_modules (just as a dependency)
 7. diffence between the redux and redux toolkit and 
-8. what is the version of redux and react-redux and toolkit
+8. what is the version of redux and react-redux and toolkit 
+ redux-tookit=>4.2.0
+ redux ===> 1.8.2
+ react-redux ==>8.0.2
 9. how can u pass the redux state of the parent project to the iframe 
 10. what is ref 
 11. what is logermiddleuse thunk 
